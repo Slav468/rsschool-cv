@@ -1,6 +1,6 @@
 # Sergey Scoromnik
 
-![My foto](./my-foto.jpg)
+![My foto](my-foto.jpg)
 
 ## GitHub
 
