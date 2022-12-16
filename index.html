@@ -1,14 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta
-			http-equiv="X-UA-Compatible"
-			content="IE=edge">
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./pictures/favicon/favicon.ico" type="image/x-icon" />
+		<title>Sergeys CV</title>
 	</head>
-	<body></body>
+
+	<body>
+		<header class="header">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a href="#about-me" class="nav-link">About me</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#skill" class="nav-link">My skills</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#contacts" class="nav-link">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="main">
+			<section class="promo">
+				<div class="promo__about">
+					<h1 class="promo__title">Hello, my name is Sergey Scoromnik!</h1>
+					<p class="promo__descr">
+						My name is Sergey and I am a thirty-four year old man. In September 2021, my thoughts and desires motivated
+						me to purchase paid web development courses and start doing it on my own, with a desire to understand and a
+						desire to understand how everything works. I am currently finishing my three courses on JavaScript and
+						Web-development. I also have a driving license with the right to drive category B. My English level:
+						Pre-Intermediate A2 - Intermediate B1.
+					</p>
+					<p>Finised courses</p>
+					<ol>
+						<li>
+							<a href="">certificate</a>
+						</li>
+						<li>
+							<a href="">certificate </a>
+						</li>
+						<li>
+							<a href="">certificate</a>
+						</li>
+					</ol>
+				</div>
+				<img src="./pictures/foto/promo-foto.jpg" alt="Sergeys foto" />
+			</section>
+
+			<section class="framework">
+				<div class="framework__wrapper">
+					<!-- header framework -->
+					<div class="framework__title" id="framework">
+						<h2 class="framework-title__title">I use in work</h2>
+						<div class="devaider framework__devaider"></div>
+					</div>
+					<!-- grid framework item  -->
+					<div class="framework__grid grid-content" id="skill">
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/html5.svg" alt="HTML" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>HTML5</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>
+										It is he who creates the skeleton of your site or application, and the fifth version will allow me
+										to create more SEO-optimized structure of your product.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/css3.svg" alt="CSS3" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>CSS3</h4>
+									<p>including:</p>
+									<ul>
+										<li>Scss/Sass</li>
+										<li>Flex</li>
+										<li>Grid</li>
+										<li>BEM</li>
+										<li>Responsiveness</li>
+									</ul>
+								</div>
+								<div class="grid-content__descr">
+									<p>
+										This style language allows me to create absolutely any look for your site or application. Everything
+										is limited only by your imagination
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/js.svg" alt="Java Script" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>Java Script</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>
+										This programming language allows you to bring anything to life: sliders, windows, tooltips, tabs,
+										receiving data from the server and much more.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/bootstrap.svg" alt="bootstrap" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>Bootstrap</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>This library helps in building fast, responsive websites.</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/Figma_Logo.svg" alt="Figma" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>Figma</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>
+										This is a cross-platform online service for interface designers and web developers. Development
+										interfaces takes place in the online application.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/git.svg" alt="git" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>Git</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>It is a version control system designed to handle everything from small to very large projects.</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/gulp.svg" alt="gulp" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>Gulp</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>A set of tools to automate and improve your workflow.</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-content__item">
+							<div class="grid-content__wrap">
+								<div class="grid-content__img">
+									<img src="./pictures/skills/webpack.svg" alt="webpack" class="grid-content__img" />
+								</div>
+								<div class="grid-content__title">
+									<h4>Webpack</h4>
+								</div>
+								<div class="grid-content__descr">
+									<p>One of the most powerful and flexible frontend building tools.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<a href="https://rs.school/js/" target="_blank"
+				><img src="./pictures/course/rs_school_js.svg" alt="RS_school course image" />
+			</a>
+
+			<div class="wrapper contacts__wrapper">
+				<!-- contact foto-->
+				<div class="contacts-foto">
+					<img src="./pictures/foto/footer.jpg" alt="Serges foto foto" class="contacts-foto__img" />
+				</div>
+				<!-- contacts social & form -->
+				<div class="contacts-wrap">
+					<!-- contacts title -->
+					<div class="contacts-title">
+						<h2 class="subtitle contacts-title__subtitle">Contacts</h2>
+						<h2 class="title contacts-title__title">Get into contact with me</h2>
+						<div class="devaider contacts-title__devaider"></div>
+					</div>
+					<!-- contacts social -->
+					<div class="contacts-convenient">
+						<!-- convenient title -->
+						<div class="contacts-convenient__title">In any way convenient for you:</div>
+						<!-- contact ico svg -->
+						<div class="convenient-social">
+							<div class="convenient-social__item">
+								<a
+									href="https://www.linkedin.com/in/sergey-scoromnik-7b1882224/"
+									class="convenient-social__link"
+									target="_blank"
+									><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+										<path
+											d="M417.2 64H96.8C79.3 64 64 76.6 64 93.9V415c0 17.4 15.3 32.9 32.8 32.9h320.3c17.6 0 30.8-15.6 30.8-32.9V93.9C448 76.6 434.7 64 417.2 64zM183 384h-55V213h55v171zm-25.6-197h-.4c-17.6 0-29-13.1-29-29.5 0-16.7 11.7-29.5 29.7-29.5s29 12.7 29.4 29.5c0 16.4-11.4 29.5-29.7 29.5zM384 384h-55v-93.5c0-22.4-8-37.7-27.9-37.7-15.2 0-24.2 10.3-28.2 20.3-1.5 3.6-1.9 8.5-1.9 13.5V384h-55V213h55v23.8c8-11.4 20.5-27.8 49.6-27.8 36.1 0 63.4 23.8 63.4 75.1V384z"
+										/></svg
+								></a>
+							</div>
+							<div class="convenient-social__item">
+								<a href="https://vk.com/sergeyslav" class="convenient-social__link" target="_blank"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+										version="1.1"
+										viewbox="0 0 25 25"
+									>
+										<path
+											d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93V15.07C2 20.67 3.33 22 8.93 22H15.07C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2M18.15 16.27H16.69C16.14 16.27 15.97 15.82 15 14.83C14.12 14 13.74 13.88 13.53 13.88C13.24 13.88 13.15 13.96 13.15 14.38V15.69C13.15 16.04 13.04 16.26 12.11 16.26C10.57 16.26 8.86 15.32 7.66 13.59C5.85 11.05 5.36 9.13 5.36 8.75C5.36 8.54 5.43 8.34 5.85 8.34H7.32C7.69 8.34 7.83 8.5 7.97 8.9C8.69 11 9.89 12.8 10.38 12.8C10.57 12.8 10.65 12.71 10.65 12.25V10.1C10.6 9.12 10.07 9.03 10.07 8.68C10.07 8.5 10.21 8.34 10.44 8.34H12.73C13.04 8.34 13.15 8.5 13.15 8.88V11.77C13.15 12.08 13.28 12.19 13.38 12.19C13.56 12.19 13.72 12.08 14.05 11.74C15.1 10.57 15.85 8.76 15.85 8.76C15.95 8.55 16.11 8.35 16.5 8.35H17.93C18.37 8.35 18.47 8.58 18.37 8.89C18.19 9.74 16.41 12.25 16.43 12.25C16.27 12.5 16.21 12.61 16.43 12.9C16.58 13.11 17.09 13.55 17.43 13.94C18.05 14.65 18.53 15.24 18.66 15.65C18.77 16.06 18.57 16.27 18.15 16.27Z"
+										/></svg
+								></a>
+							</div>
+							<div class="convenient-social__item">
+								<a href="https://github.com/Slav468/" class="convenient-social__link" target="_blank">
+									<svg viewbox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z"
+											fill="black"
+										/></svg
+								></a>
+							</div>
+							<div class="convenient-social__item">
+								<a href="https://t.me/rolan21" class="convenient-social__link" target="_blank">
+									<svg viewbox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M15 30C23.2863 30 30 23.2863 30 15C30 6.71375 23.2863 0 15 0C6.71375 0 0 6.71375 0 15C0 23.2863 6.71375 30 15 30ZM6.86375 14.675L21.3263 9.09875C21.9975 8.85625 22.5837 9.2625 22.3662 10.2775L22.3675 10.2762L19.905 21.8775C19.7225 22.7 19.2337 22.9 18.55 22.5125L14.8 19.7487L12.9912 21.4913C12.7912 21.6913 12.6225 21.86 12.235 21.86L12.5013 18.0438L19.4513 11.765C19.7537 11.4987 19.3837 11.3488 18.985 11.6138L10.3963 17.0212L6.69375 15.8663C5.89 15.6112 5.8725 15.0625 6.86375 14.675Z"
+											fill="black"
+										/>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
